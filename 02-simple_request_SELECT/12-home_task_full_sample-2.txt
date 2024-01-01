@@ -1,0 +1,11 @@
+1. Select all orders from the countries of France, Austria, Spain.
+
+2. Select all orders, sort by required_date (descending) and sort by shipment date (age)
+
+3. Select the minimum number of products among those products that sell more than 30 units.
+
+4. Select the maximum number of products among those products that sell more than 30 units.
+
+5. Find the average of days to delivery from the order date in the United States.
+
+6. Find the amount for which this product is available (quantity * price) and those that are planned to be sold in the future (see the discontinued field)
