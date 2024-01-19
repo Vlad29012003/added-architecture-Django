@@ -1,0 +1,17 @@
+1. Create a table teacher with the fields teacher_id serial, first_name varchar, last_name varchar, birthday date, phone varchar, title varchar
+
+2. Add the middle_name varchar column to the table after creation
+
+3. Remove the middle_name column
+
+4. Rename the birthday column to birth_date
+
+5. Change the data type of the phone column to varchar(32)
+
+6. Create a table exam with the fields exam_id serial, exam_name varchar(256), exam_date date
+
+7. Insert any three records with auto-generation of an identifier
+
+8. Using a full selection, make sure that the data was inserted normally and the identifiers were generated incrementally
+
+9. Delete all data from the table and reset the identifier to its original state
