@@ -1,0 +1,7 @@
+1. Display products whose quantity on sale is less than the smallest average quantity of products in order details (grouping by product_id). The resulting table must have product_name and units_in_stock columns.
+
+2. Write a query that displays the total amount of freight of orders for customer companies for orders whose freight cost is greater than or equal to the average freight cost of all orders, and also the order's shipping date must be in the second half of July 1996. The resulting table should have columns customer_id and freight_sum, the rows of which should be sorted by order freight amount.
+
+3. Write a query that returns the 3 highest value orders that were created after September 1, 1997 inclusive and were delivered to South American countries. The total cost is calculated as the sum of the cost of the order parts, taking into account the discount. The resulting table should have columns customer_id, ship_country and order_price, the rows of which should be sorted by order value in reverse order.
+
+4. Display all products (unique product names) of which exactly 10 units have been ordered (of course, this can be solved without a subquery).
